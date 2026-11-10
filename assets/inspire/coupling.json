@@ -1,0 +1,42 @@
+{
+  "active": [
+    "thumb_proximal_yaw_joint",
+    "thumb_proximal_pitch_joint",
+    "index_proximal_joint",
+    "middle_proximal_joint",
+    "ring_proximal_joint",
+    "pinky_proximal_joint"
+  ],
+  "coupling": {
+    "thumb_intermediate_joint": {
+      "driver": "thumb_proximal_pitch_joint",
+      "multiplier": 1.334,
+      "offset": 0.0
+    },
+    "thumb_distal_joint": {
+      "driver": "thumb_proximal_pitch_joint",
+      "multiplier": 0.667,
+      "offset": 0.0
+    },
+    "index_intermediate_joint": {
+      "driver": "index_proximal_joint",
+      "multiplier": 1.06399,
+      "offset": -0.04545
+    },
+    "middle_intermediate_joint": {
+      "driver": "middle_proximal_joint",
+      "multiplier": 1.06399,
+      "offset": -0.04545
+    },
+    "ring_intermediate_joint": {
+      "driver": "ring_proximal_joint",
+      "multiplier": 1.06399,
+      "offset": -0.04545
+    },
+    "pinky_intermediate_joint": {
+      "driver": "pinky_proximal_joint",
+      "multiplier": 1.06399,
+      "offset": -0.04545
+    }
+  }
+}

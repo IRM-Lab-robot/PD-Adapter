@@ -1,0 +1,32 @@
+{
+  "active": [
+    "index_q1",
+    "middle_q1",
+    "ring_q1",
+    "pinky_q1",
+    "thumb_q1",
+    "thumb_q2"
+  ],
+  "coupling": {
+    "index_q2": {
+      "driver": "index_q1",
+      "multiplier": 1.05851325,
+      "offset": 0.0
+    },
+    "middle_q2": {
+      "driver": "middle_q1",
+      "multiplier": 1.05851325,
+      "offset": 0.0
+    },
+    "ring_q2": {
+      "driver": "ring_q1",
+      "multiplier": 1.05851325,
+      "offset": 0.0
+    },
+    "pinky_q2": {
+      "driver": "pinky_q1",
+      "multiplier": 1.05851325,
+      "offset": 0.0
+    }
+  }
+}

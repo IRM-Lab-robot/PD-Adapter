@@ -1,0 +1,71 @@
+{
+  "active": [
+    "right_hand_Thumb_Flexion",
+    "right_hand_Thumb_Opposition",
+    "right_hand_Index_Finger_Distal",
+    "right_hand_Index_Finger_Proximal",
+    "right_hand_Middle_Finger_Proximal",
+    "right_hand_Middle_Finger_Distal",
+    "right_hand_Ring_Finger",
+    "right_hand_Pinky",
+    "right_hand_Finger_Spread"
+  ],
+  "coupling": {
+    "right_hand_j5": {
+      "driver": "right_hand_Thumb_Opposition",
+      "multiplier": 1.0,
+      "offset": 0.0
+    },
+    "right_hand_j3": {
+      "driver": "right_hand_Thumb_Flexion",
+      "multiplier": 1.01511,
+      "offset": 0.0
+    },
+    "right_hand_j4": {
+      "driver": "right_hand_Thumb_Flexion",
+      "multiplier": 1.44889,
+      "offset": 0.0
+    },
+    "right_hand_j14": {
+      "driver": "right_hand_Index_Finger_Distal",
+      "multiplier": 1.045,
+      "offset": 0.0
+    },
+    "right_hand_j15": {
+      "driver": "right_hand_Middle_Finger_Distal",
+      "multiplier": 1.0454,
+      "offset": 0.0
+    },
+    "right_hand_j12": {
+      "driver": "right_hand_Ring_Finger",
+      "multiplier": 1.3588,
+      "offset": 0.0
+    },
+    "right_hand_j16": {
+      "driver": "right_hand_Ring_Finger",
+      "multiplier": 1.42093,
+      "offset": 0.0
+    },
+    "right_hand_j13": {
+      "driver": "right_hand_Pinky",
+      "multiplier": 1.3588,
+      "offset": 0.0
+    },
+    "right_hand_j17": {
+      "driver": "right_hand_Pinky",
+      "multiplier": 1.42307,
+      "offset": 0.0
+    },
+    "right_hand_index_spread": {
+      "driver": "right_hand_Finger_Spread",
+      "multiplier": 0.5,
+      "offset": 0.0
+    },
+    "right_hand_ring_spread": {
+      "driver": "right_hand_Finger_Spread",
+      "multiplier": 0.5,
+      "offset": 0.0
+    }
+  },
+  "note": "Extracted directly from SVH URDF mimic tags; affine q = A u + c. No nonlinear fit was performed."
+}
