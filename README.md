@@ -1,9 +1,7 @@
 <div align="center">
-# PD-Adapter
- 
+
 ### Physics-Distilled Learning of Command-Space Initialization for Underactuated Grasp Adaptation
- 
-**Anonymous submission — under review**
+
  
 </div>
 <p align="center">
